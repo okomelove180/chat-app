@@ -1,0 +1,81 @@
+.wrapper {
+  display: flex;
+}
+
+.side-bar {
+  background-color: #253141;
+  width: 300px;
+  height: 100vh;
+}
+
+.chat {
+  background-color: #FFFFFF;
+  width: calc(100vw - 300px);
+}
+
+/* サイドバー_ヘッダー */
+
+.side-bar_header {
+  height: 100px;
+  background-color: #253141;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side-bar_header_name a {
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.making-chat-button a {
+  font-size: 10px;
+  padding: 14px;
+  border: solid 1px lightblue;
+  color: deepskyblue;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/* サイドバー　チャットリスト */
+
+
+.side-bar_chat-list {
+  height: calc(100vh - 100px);
+  background-color: #2f3e51;
+  padding: 0 20px;
+  overflow: scroll;
+}
+
+.chat-list_box {
+  padding: 20px 0px 40px;
+}
+
+.chat-list_text a {
+  color: white;
+  text-decoration: none;
+}
+
+/* チャットエリア */
+
+
+.chat_header {
+  height: 100px;
+  background-color: #FFFFFF;
+  padding: 0 40px;
+}
+
+.chat_message-area {
+  height: calc(100vh - 190px);
+  background-color: #FAFAFA;
+  padding: 46px 40px 0;
+}
+
+.chat_send-area {
+  height: 90px;
+  background-color: #DDDDDD;
+  padding: 20px 40px;
+}
