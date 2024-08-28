@@ -50,11 +50,11 @@
   overflow: scroll;
 }
 
-.chat-list_box {
+.room {
   padding: 20px 0px 40px;
 }
 
-.chat-list_text a {
+.room-name a {
   color: white;
   text-decoration: none;
 }
